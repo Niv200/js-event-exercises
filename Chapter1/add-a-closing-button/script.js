@@ -3,6 +3,6 @@ for(let msg of msgs) {
     let button = document.createElement("button");
     msg.appendChild(button);
     button.textContent = "[X]";
-    button.onclick = (e) => msg.remove();
+    button.onclick = e => msg.remove();
 }
 
