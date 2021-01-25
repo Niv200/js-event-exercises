@@ -1,5 +1,3 @@
-
-
-document.getElementsByTagName("button").addEventListener("click", function() {
-    alert("s");
+document.getElementById("hider").addEventListener("click", e => {
+    document.getElementById("text").hidden = true;
 });
