@@ -1,0 +1,22 @@
+#thumbs a {
+    border: solid 1px #ccc;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    margin: 2px;
+    float: left;
+  }
+  
+  #thumbs a:hover {
+    border-color: #ff9900;
+  }
+  
+  #thumbs li {
+    list-style: none;
+  }
+  
+  #thumbs {
+    margin: 0;
+    padding: 0;
+  }
+  
