@@ -4,4 +4,3 @@ document.getElementById("container").addEventListener("click", e => {
         pane.remove();
     }
 });
-  
