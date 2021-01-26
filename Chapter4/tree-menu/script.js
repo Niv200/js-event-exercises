@@ -1,9 +1,9 @@
 let tree = document.getElementById("tree");
-let lists = document.querySelectorAll("li");
+let listItems = document.querySelectorAll("li");
 
-for(list of lists){
+for(listItem of listItems){
     let span = document.createElement("span");
-    list.prepend(span);
+    listItem.prepend(span);
     span.append(span.nextSibling);
 }
 

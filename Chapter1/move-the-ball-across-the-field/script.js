@@ -1,14 +1,12 @@
 let field = document.getElementById("field");
 let ball = document.getElementById("ball");
-ball.style.top = 100 + "px";
-ball.style.left = 100 + "px" ;
+
 field.addEventListener("click", event =>{
-    let ballX = ball.clientWidth;
-    let ballY = ball.clientHeight;
+    let ballX = ball.clientWidth; 
+    let ballY = ball.clientHeight; 
     let cX = event.clientX;
     let cY = event.clientY;
-    //Center ball on cursor
-    console.log(event.clientY);
+    console.log(cX);
     if(cX < 38){
         cX = 38;
     }

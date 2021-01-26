@@ -13,7 +13,7 @@ body {
 
 #ball {
   position: absolute;
-  left: 100; /* relative to the closest positioned ancestor (field) */
-  top: 100;
+  left: 100px; /* relative to the closest positioned ancestor (field) */
+  top: 100px;
   transition: 1s all; /* CSS animation for left/top makes the ball fly */
 }
